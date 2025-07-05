@@ -24,7 +24,6 @@ const Skills = () => {
     { name: "CSS", logo: <SiCss3 />, color: "#1572B6" },
     { name: "JavaScript", logo: <SiJavascript />, color: "#F7DF1E" },
     { name: "React", logo: <SiReact />, color: "#61DAFB" },
-    { name: "Redux Toolkit", logo: <SiRedux />, color: "#764ABC" },
     { name: "Express JS", logo: <SiExpress />, color: "#110011" },
     { name: "GitHub", logo: <SiGithub />, color: "#181717" },
     { name: "Node JS", logo: <SiNodedotjs />, color: "#339933" },
@@ -34,17 +33,7 @@ const Skills = () => {
     { name: "Git", logo: <SiGit />, color: "#F05032" },
     { name: "MongoDB", logo: <SiMongodb />, color: "#47A248" },
     { name: "C", logo: <SiC />, color: "#A8B9CC" },
-    {
-      name: "Postman",
-      logo: (
-        <img
-          src={postmanImage}
-          alt="Postman"
-          style={{ width: "80px", height: "80px" }}
-        />
-      ),
-      color: "#FF3C37",
-    },
+    
   ];
 
   // Container variants for staggered appearance

@@ -1,4 +1,4 @@
-This is my portfolio project.
+This is my portfolio2 project.
 
 Steps to run:
 

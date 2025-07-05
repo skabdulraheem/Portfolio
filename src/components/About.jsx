@@ -5,13 +5,13 @@ const About = () => {
   const info = [
     {
       text: "Completed Projects",
-      count: 5,
+      count: 3,
       icon: <FaCheckCircle className="text-4xl text-orange-400" />,
     },
   ];
 
   const googleDriveLink =
-    "https://drive.google.com/file/d/1qUXS_A0jIsu2ny0lPqhPz0-f4IMW2Thi/view?usp=sharing";
+    "https://drive.google.com/file/d/1JaqfuwfIEzpGkLPYjI6iaNhvZj4r_Xfk/view?usp=drivesdk";
 
   const navigateToResume = () => {
     window.open(googleDriveLink, "_blank");

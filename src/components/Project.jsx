@@ -17,59 +17,27 @@ import care from "../assets/images/carepulse.png";
 
 const Project = () => {
   const projects = [
-    {
-      img: vsm,
-      name: "Virtual Study Mugen",
-      github_link: "https://github.com/Somepalli-Venkatesh/vsm",
-      live_link: "https://vsm-virtual-study-front.vercel.app/",
-      tech_stack: [
-        "React js",
-        "MongoDb",
-        "Node Js",
-        "JWT",
-        "Socket.io",
-        "Express js",
-        "Tailwind css",
-      ],
-    },
+    
     {
       img: invigilation,
       name: "Invigilation",
-      github_link: "https://github.com/Somepalli-Venkatesh/Invigilation",
+      github_link: "https://github.com/skabdulraheem/Invigo",
       live_link: "https://invigilation-ss44.vercel.app/",
       tech_stack: ["React JS", "MongoDB", "Express JS", "Node.js"],
     },
 
-    {
-      img: Connectify,
-      name: "Connectify",
-      github_link: "https://github.com/Somepalli-Venkatesh/Connectify",
-      live_link: "https://connectify-m2ma.vercel.app/",
-      tech_stack: ["Next js", "stream", "Tailwind css"],
-    },
+    
 
     {
       img: care,
-      name: "carepulse",
-      github_link: "https://github.com/Somepalli-Venkatesh/pmscare",
-      live_link: "https://pmscare.vercel.app/",
-      tech_stack: ["Next js", "appwrite", "Tailwind css"],
+      name: "Next-Gen AI Interview Simulator",
+      github_link: "https://github.com/skabdulraheem/AI_Interview_Simulator",
+      live_link: "https://next-gen-ai-interview.vercel.app/",
+      tech_stack: ["Node js", "Face-api.js", "react-speech-recognition", "Web Audio API"],
     },
 
-    {
-      img: Gemini,
-      name: "Gemini Clone",
-      github_link: "https://github.com/Somepalli-Venkatesh/Gemini",
-      live_link: "https://gemini-ivory-five.vercel.app/",
-      tech_stack: ["React JS", "Gemini API", "HTML"],
-    },
-    {
-      img: Youtube,
-      name: "Youtube Clone",
-      github_link: "https://github.com/Somepalli-Venkatesh/project1",
-      live_link: "https://project1-gilt-tau.vercel.app/",
-      tech_stack: ["React", "YouTube API", "Redux Toolkit"],
-    },
+    
+    
   ];
 
   return (

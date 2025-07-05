@@ -3,10 +3,9 @@ import Type from "./Type";
 import programmer from "../assets/images/programmer1.png";
 
 const socialMediaLinks = [
-  "https://www.instagram.com/venkatesh__somepalli?utm_source=qr&igsh=ZjUyam5jdGM5aTFm ",
-  "https://github.com/Somepalli-Venkatesh?tab=overview&from=2024-10-01&to=2024-10-02",
-  "https://www.linkedin.com/in/venkatesh-somepalli-84663a23b/",
-  "https://x.com/Venkate39222289?t=UtH3B2xEzXViqdQXuFV4lA&s=08",
+  "https://www.instagram.com/a_raheem_918?igsh=bDliNWY2NmhrMnV0 ",
+  "https://github.com/skabdulraheem",
+  "https://www.linkedin.com/in/sk-abdul-raheem-11a4162a8",
 ];
 
 const Hero = () => {
@@ -20,7 +19,7 @@ const Hero = () => {
     "logo-instagram",
     "logo-github",
     "logo-linkedin",
-    "logo-twitter",
+    
   ];
   return (
     <section
@@ -34,7 +33,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span className="text-yellow-300">Venkatesh Somepalli</span> {/* Changed to yellow */}
+            My Name is <span className="text-yellow-300">Shaik Abdul Raheem</span> {/* Changed to yellow */}
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-yellow-200"> {/* Changed to a lighter yellow */}
             <Type />
