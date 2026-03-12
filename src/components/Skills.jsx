@@ -24,15 +24,11 @@ const Skills = () => {
     { name: "CSS", logo: <SiCss3 />, color: "#1572B6" },
     { name: "JavaScript", logo: <SiJavascript />, color: "#F7DF1E" },
     { name: "React", logo: <SiReact />, color: "#61DAFB" },
-    { name: "Express JS", logo: <SiExpress />, color: "#110011" },
     { name: "GitHub", logo: <SiGithub />, color: "#181717" },
     { name: "Node JS", logo: <SiNodedotjs />, color: "#339933" },
     { name: "Java", logo: <FaJava />, color: "#007396" },
-    { name: "Python", logo: <SiPython />, color: "#3776AB" },
     { name: "MySQL", logo: <SiMysql />, color: "#4479A1" },
     { name: "Git", logo: <SiGit />, color: "#F05032" },
-    { name: "MongoDB", logo: <SiMongodb />, color: "#47A248" },
-    { name: "C", logo: <SiC />, color: "#A8B9CC" },
     
   ];
 

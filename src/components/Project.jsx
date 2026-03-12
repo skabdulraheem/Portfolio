@@ -14,6 +14,8 @@ import Youtube from "../assets/images/Youtube.png";
 import Ai_Sumz from "../assets/images/Ai_Sumz.png";
 import vsm from "../assets/images/vsm.png";
 import care from "../assets/images/carepulse.png";
+import Tourism from "../assets/images/Tourism.jpg";
+import Console from "../assets/images/Java-Console.jpg";
 
 const Project = () => {
   const projects = [
@@ -30,10 +32,27 @@ const Project = () => {
 
     {
       img: care,
-      name: "Next-Gen AI Interview Simulator",
-      github_link: "https://github.com/skabdulraheem/AI_Interview_Simulator",
-      live_link: "https://next-gen-ai-interview.vercel.app/",
-      tech_stack: ["Node js", "Face-api.js", "react-speech-recognition", "Web Audio API"],
+      name: "Local AI ChatBot",
+      github_link: "https://github.com/skabdulraheem/Local-AI-ChatBot",
+      live_link: "https://localaichatbot.vercel.app/",
+      tech_stack: ["Java", "Spring Boot", "Ollama", "HTML", "JavaScript"],
+    },
+
+    
+    {
+      img: Tourism,
+      name: "Guntur Tourism Website",
+      github_link: "https://github.com/skabdulraheem/Guntur_Tourism_BootStrap",
+      tech_stack: ["HTML5", "CSS3", "BootStrape5"],
+    },
+
+
+    
+    {
+      img: Console,
+      name: "Java Grocery Billing Console Application",
+      github_link: "https://github.com/skabdulraheem/GroceryBillingConsoleApp",
+      tech_stack: ["Java(Core Java)", "OOP", "Collections Framework", "Console I/O (Scanner)"],
     },
 
     
@@ -69,8 +88,7 @@ const Project = () => {
                 transitionSpeed={2500}
                 className="h-full"
               >
-                <div className="group relative h-full w-full p-4 bg-gradient-to-br from-gray-800 via-red-800 to-red-900 rounded-xl shadow-2xl overflow-hidden transform transition duration-500 hover:scale-105">
-                  {/* Project Image */}
+<div className="group relative w-full h-[420px] p-4 bg-gradient-to-br from-gray-800 via-red-800 to-red-900 rounded-xl shadow-2xl overflow-hidden transform transition duration-500 hover:scale-105 flex flex-col">                  {/* Project Image */}
                   <div className="overflow-hidden rounded-lg">
                     <img
                       src={project.img}
