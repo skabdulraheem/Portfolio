@@ -14,12 +14,24 @@ import Youtube from "../assets/images/Youtube.png";
 import Ai_Sumz from "../assets/images/Ai_Sumz.png";
 import vsm from "../assets/images/vsm.png";
 import care from "../assets/images/carepulse.png";
+import commerse from "../assets/E-commerse";
 import Tourism from "../assets/images/Tourism.jpg";
 import Console from "../assets/images/Java-Console.jpg";
 
 const Project = () => {
   const projects = [
     
+
+     {
+      img: commerse,
+      name: "Cartify Web Application",
+      github_link: "https://github.com/skabdulraheem/Cartify-Web-Application",
+      live_link:"https://cartify-cart.vercel.app",
+      tech_stack: ["Java 8","Spring Boot","Spring Security","JWT Authentication","PostgreSQL","React.js"],
+    },
+
+
+
     {
       img: invigilation,
       name: "Invigilation",
@@ -32,9 +44,8 @@ const Project = () => {
 
     {
       img: care,
-      name: "Local AI ChatBot",
-      github_link: "https://github.com/skabdulraheem/Local-AI-ChatBot",
-      live_link: "https://localaichatbot.vercel.app/",
+      name: "Aura Local-AI Chatbot",
+      github_link: "https://github.com/skabdulraheem/Aura_Local-AI_Chatbot",
       tech_stack: ["Java", "Spring Boot", "Ollama", "HTML", "JavaScript"],
     },
 
