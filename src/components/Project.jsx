@@ -14,7 +14,7 @@ import Youtube from "../assets/images/Youtube.png";
 import Ai_Sumz from "../assets/images/Ai_Sumz.png";
 import vsm from "../assets/images/vsm.png";
 import care from "../assets/images/carepulse.png";
-import commerse from "../assets/E-commerse";
+import commerse from "../assets/E-commerse.png";
 import Tourism from "../assets/images/Tourism.jpg";
 import Console from "../assets/images/Java-Console.jpg";
 
