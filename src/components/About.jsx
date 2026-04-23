@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   const googleDriveLink =
-    "https://drive.google.com/file/d/1seH3YXiliGki4gd-RigoBzyvso3K0rcC/view?usp=drive_link";
+    "https://drive.google.com/file/d/1tQvLg79pEQCab9mVGGQBVYbdrobNfLSY/view?usp=drive_link";
 
   const navigateToResume = () => {
     window.open(googleDriveLink, "_blank");
