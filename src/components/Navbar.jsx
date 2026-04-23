@@ -88,7 +88,7 @@ const Navbar = () => {
             {/* Resume Button in Mobile Menu */}
             <li>
               <a
-                href="https://drive.google.com/file/d/1JaqfuwfIEzpGkLPYjI6iaNhvZj4r_Xfk/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1seH3YXiliGki4gd-RigoBzyvso3K0rcC/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-4 py-2 text-center text-sm font-semibold text-white bg-orange-500 rounded-md shadow-md transition-transform duration-300 hover:bg-ornage-700 hover:scale-105"
